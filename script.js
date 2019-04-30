@@ -11,7 +11,11 @@ var todasAsImgs = $('img');
 
 for(let i = 0; i < todasAsImgs.length; i++){
     console.log(todasAsImgs[i]);
-    
+    var tempSrc = todasAsImgs[i].attr('src');
+    if (!tempSrc.includes("unsplash")) {
+        var finalSrc = "https://raw.githubusercontent.com/kasterni/musemotion/master/"+tempSrc;
+        todasAsImgs[i].attr('src',finalSrc);
+    }
 }
 /*
 todasAsImgs.forEach(i => {
