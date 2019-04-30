@@ -9,6 +9,11 @@ $('#toggle').click(function () {
 
 var todasAsImgs = $('img');
 
+for(let i = 0; i < todasAsImgs.length; i++){
+    console.log(todasAsImgs[i]);
+    
+}
+
 todasAsImgs.forEach(i => {
     console.log(i);
     var tempSrc = i.attr('src');
