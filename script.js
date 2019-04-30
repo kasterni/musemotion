@@ -10,6 +10,7 @@ $('#toggle').click(function () {
 var todasAsImgs = $('img');
 
 todasAsImgs.forEach(i => {
+    console.log(i);
     var tempSrc = i.attr('src');
     if (!tempSrc.includes("unsplash")) {
         var finalSrc = "https://raw.githubusercontent.com/kasterni/musemotion/master/"+tempSrc;
