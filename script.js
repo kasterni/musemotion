@@ -13,7 +13,7 @@ for(let i = 0; i < todasAsImgs.length; i++){
     console.log(todasAsImgs[i]);
     
 }
-
+/*
 todasAsImgs.forEach(i => {
     console.log(i);
     var tempSrc = i.attr('src');
@@ -23,7 +23,7 @@ todasAsImgs.forEach(i => {
     }
 });
 
-/* $(window).on("load", function () {
+$(window).on("load", function () {
     var cursor = $(".cursor"),
         mouseX = 0,
         mouseY = 0,
