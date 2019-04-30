@@ -7,6 +7,16 @@ $('#toggle').click(function () {
     $('body').addClass('no-scroll');
 });
 
+var todasAsImgs = $('img');
+
+todasAsImgs.forEach(i => {
+    var tempSrc = i.attr('src');
+    if (!tempSrc.includes("unsplash")) {
+        var finalSrc = "https://raw.githubusercontent.com/kasterni/musemotion/master/"+tempSrc;
+        i.attr('src',finalSrc);
+    }
+});
+
 /* $(window).on("load", function () {
     var cursor = $(".cursor"),
         mouseX = 0,
