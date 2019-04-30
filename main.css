@@ -501,7 +501,7 @@ h4 {
     position: absolute;
     width: 100%;
     overflow: auto;
-    display: blfock;
+    display: block;
 }
 
 .decolines {
