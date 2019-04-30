@@ -7,6 +7,8 @@ $('#toggle').click(function () {
     $('body').addClass('no-scroll');
 });
 
+
+/*
 var todasAsImgs = $('img');
 
 for(let i = 0; i < todasAsImgs.length; i++){
@@ -17,7 +19,7 @@ for(let i = 0; i < todasAsImgs.length; i++){
         todasAsImgs[i].attr('src',finalSrc);
     }
 }
-/*
+
 todasAsImgs.forEach(i => {
     console.log(i);
     var tempSrc = i.attr('src');
