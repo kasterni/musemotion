@@ -7,7 +7,7 @@ $('#toggle').click(function () {
     $('body').addClass('no-scroll');
 });
 
-$(window).on("load", function () {
+/* $(window).on("load", function () {
     var cursor = $(".cursor"),
         mouseX = 0,
         mouseY = 0,
@@ -68,7 +68,7 @@ $(window).on("load", function () {
     }
 
     window.requestAnimationFrame(animate);
-});
+}); */
 
 //// contact validation
 //
